@@ -1,0 +1,115 @@
+{
+    "info": {
+        "year": "2026",
+        "version": "1.0",
+        "description": "Exported Dataset",
+        "contributor": "",
+        "url": "",
+        "date_created": "2026-03-10T13:21:56.117561"
+    },
+    "licenses": [
+        {
+            "id": 1,
+            "url": "https://creativecommons.org/licenses/by/4.0/",
+            "name": "CC BY 4.0"
+        }
+    ],
+    "categories": [
+        {
+            "id": 0,
+            "name": "person",
+            "supercategory": "Object"
+        },
+        {
+            "id": 1,
+            "name": "animal",
+            "supercategory": "Object"
+        },
+        {
+            "id": 2,
+            "name": "Tree1",
+            "supercategory": "Object"
+        },
+        {
+            "id": 3,
+            "name": "Tree2",
+            "supercategory": "Object"
+        },
+        {
+            "id": 4,
+            "name": "Sand1",
+            "supercategory": "Object"
+        }
+    ],
+    "images": [
+        {
+            "id": 0,
+            "license": 1,
+            "file_name": "DAZZLE_data_coco_cleaned_frame_000136.jpg",
+            "height": 2160,
+            "width": 4096,
+            "date_captured": "2026-03-10 13:21:03",
+            "extra": {
+                "name": "DAZZLE_data_coco_cleaned_frame_000136.jpg"
+            }
+        }
+    ],
+    "annotations": [
+        {
+            "id": 0,
+            "image_id": 0,
+            "category_id": 1,
+            "bbox": [
+                2072.353759765625,
+                816.772216796875,
+                61.81298828125,
+                77.1195068359375
+            ],
+            "area": 4766.987172305584,
+            "iscrowd": 0,
+            "segmentation": []
+        },
+        {
+            "id": 1,
+            "image_id": 0,
+            "category_id": 2,
+            "bbox": [
+                1764.287117138181,
+                988.6592681398234,
+                299.27519289221414,
+                289.6983867196633
+            ],
+            "area": 86699.54056609048,
+            "iscrowd": 0,
+            "segmentation": []
+        },
+        {
+            "id": 2,
+            "image_id": 0,
+            "category_id": 3,
+            "bbox": [
+                2165.3158756137477,
+                870.1462917545066,
+                317.23170446574704,
+                320.8230067804536
+            ],
+            "area": 101775.22927278922,
+            "iscrowd": 0,
+            "segmentation": []
+        },
+        {
+            "id": 3,
+            "image_id": 0,
+            "category_id": 4,
+            "bbox": [
+                1006.5223287350948,
+                1145.5155634402677,
+                148.44049567453817,
+                146.0462941314006
+            ],
+            "area": 21679.1842922945,
+            "iscrowd": 0,
+            "segmentation": []
+        }
+    ]
+}
